@@ -1,0 +1,14 @@
+.item {
+  border: 1px solid black;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.btn {
+  background-color: black;
+  border: none;
+  padding: 20px;
+  color: white
+}
+.img {
+  width: 100%;
+}
