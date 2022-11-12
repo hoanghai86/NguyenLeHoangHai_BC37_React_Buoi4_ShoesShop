@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import styles from "./ProductItem.module.css";
-class ProductItem extends Component {
+
+export default class ProductItem extends Component {
   render() {
     const { name, price, image } = this.props.item;
     return (
@@ -12,10 +13,10 @@ class ProductItem extends Component {
           onClick={() => this.props.addToCart(this.props.item)}
           className={styles.btn}
         >
-          Thêm giỏ hàng
+          Thêm vào giỏ hàng
         </button>
-        <br />
-        <br />
+
+        {/* truyền ngược lại cho thằng cha productList nguyên cái item, ta dùng this.props.item */}
         <button
           onClick={() => {
             this.props.setSelectedItem(this.props.item);
@@ -28,5 +29,3 @@ class ProductItem extends Component {
     );
   }
 }
-
-export default ProductItem;

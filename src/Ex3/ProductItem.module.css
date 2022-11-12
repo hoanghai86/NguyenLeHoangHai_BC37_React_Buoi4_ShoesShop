@@ -1,14 +1,16 @@
-.item {
-  border: 1px solid black;
-  margin-bottom: 30px;
-  padding: 20px;
+.item{
+    border: 1px solid black;
+    margin-bottom: 30px;
+    padding: 20px;
 }
-.btn {
-  background-color: black;
-  border: none;
-  padding: 20px;
-  color: white
+.btn{
+    background-color: black;
+    border:none;
+    padding: 5px;
+    color: white;
+    margin-bottom: 0.5rem;
+    display: block;
 }
-.img {
-  width: 100%;
+.img{
+    width: 100%;
 }
